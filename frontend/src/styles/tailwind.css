@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+    --color-insitro-purple-100: #e0d8f0;
+    --color-insitro-purple-300: #b19cd9;
+    --color-insitro-purple-500: #7a52aa;
+    --color-insitro-purple-700: #4d2d73;
+    --color-insitro-purple-900: #2b1545;
+    --color-insitro-purple-dark: #0f0c1b;
+
+    --color-insitro-pink-400: #f472b6;
+    --color-insitro-pink-500: #ec4899;
+
+    --font-sans: "Inter", sans-serif;
+    --font-serif: "Playfair Display", serif;
+}
+
+@keyframes enter {
+    from {
+        opacity: var(--tw-enter-opacity, 1);
+        transform:
+            translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0)
+            scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), 1);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+}
+
+@utility animate-in {
+    animation: enter 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@utility fade-in {
+    --tw-enter-opacity: 0;
+}
+
+@utility slide-in-from-bottom-4 {
+    --tw-enter-translate-y: 1rem;
+}

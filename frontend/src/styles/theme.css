@@ -1,0 +1,40 @@
+:root {
+  --bg-deep: #ffffff;
+  --bg-panel: rgba(255, 255, 255, 0.95);
+  --bg-soft: #f8fafc;
+  --border: #e2e8f0;
+  --text-main: #0f172a;
+  --text-subtle: #64748b;
+  --accent-cyan: #06b6d4;
+  --accent-teal: #14b8a6;
+  --accent-gold: #f59e0b;
+  --sv-del: #ef4444;       /* red-500 */
+  --sv-ins: #10b981;       /* emerald-500 */
+  --sv-dup: #eab308;       /* amber-500 */
+  --sv-inv: #3b82f6;       /* blue-500 */
+  --shadow-glow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: var(--bg-soft);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/cuteFC/CommandRunner.py
+src/cuteFC/__init__.py
+src/cuteFC/cuteFC
+src/cuteFC/cuteFC_Description.py
+src/cuteFC/cuteFC_forcecalling.py
+src/cuteFC/cuteFC_genotype.py
+src/cuteFC.egg-info/PKG-INFO
+src/cuteFC.egg-info/SOURCES.txt
+src/cuteFC.egg-info/dependency_links.txt
+src/cuteFC.egg-info/not-zip-safe
+src/cuteFC.egg-info/requires.txt
+src/cuteFC.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+Demo task record prepared from bundled example assets.
+Input BAM: /home/wzsyh/cuteFC-web/data/demo/inputs/HG002.subset.bam
+Target VCF: /home/wzsyh/cuteFC-web/data/demo/inputs/targets.vcf
+Output VCF: /home/wzsyh/cuteFC-web/data/demo/results/hg002-demo-result.vcf
